@@ -9,7 +9,7 @@ export interface DropDownNavItemProps {
 
 const DropDownNavItem = ({ title, items }: DropDownNavItemProps) => {
   return (
-    <div className="relative group">
+    <div className="inline-block relative group">
       <button className="transition-colors duration-75 ease-in-out p-2 bg-transparent hover:bg-[#ffffff37] text-white font-medium">
         {title}
       </button>
