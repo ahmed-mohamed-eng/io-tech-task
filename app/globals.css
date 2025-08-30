@@ -2,6 +2,12 @@
 
 body {
   background: #f3f3f3;
-  color: #4B2615;
+  color: #4b2615;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.zaggy-bg {
+  background: #ffffff4a no-repeat center center,
+    url("/zaggy-bg.png") no-repeat center center;
+  background-size: cover;
 }
